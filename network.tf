@@ -17,5 +17,5 @@ module "network" {
     costcenter  = "it"
   }
 
-  depends_on = [azurerm_resource_group.myresourcegroup.name]
+  depends_on = [azurerm_resource_group.myresourcegroup]
 }
